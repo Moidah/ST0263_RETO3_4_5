@@ -82,7 +82,7 @@ CREATE EXTERNAL TABLE HDI (
 ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ',' 
 STORED AS TEXTFILE 
-LOCATION 's3://hortegag-datasets/onu/hdi/';
+LOCATION 's3://moidah-datasets/onu/hdi/';
 
 
 ```
@@ -126,7 +126,7 @@ CREATE EXTERNAL TABLE EXPO (
 ROW FORMAT DELIMITED 
 FIELDS TERMINATED BY ',' 
 STORED AS TEXTFILE 
-LOCATION 's3://hortegag-datasets/onu/export/';
+LOCATION 's3://moidah-datasets/onu/export/';
 
 ```
 
@@ -161,7 +161,7 @@ CREATE EXTERNAL TABLE docs (
     line STRING
 ) 
 STORED AS TEXTFILE 
-LOCATION 's3://hortegag-datasets/gutenberg-small/';
+LOCATION 's3://moidah-datasets/gutenberg-small/';
 ```
 
 #### WordCount Ordenado por Palabra
